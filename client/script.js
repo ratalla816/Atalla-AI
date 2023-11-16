@@ -19,7 +19,7 @@ function loader(element) {
   
 }
 
-// Atalla AI types response one letter a time so it looks cool \\
+// Atalla ai types response one letter a time so it looks cool \\
 function typeText(element, text) {
   let index = 0; 
   let interval = setInterval(() => {
