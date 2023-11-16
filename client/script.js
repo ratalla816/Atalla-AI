@@ -86,7 +86,9 @@ const handleSubmit = async (e) => {
     // // activate loader "..." \\
     loader(messageDiv)
 
-    const response = await fetch('https://codex-im0y.onrender.com/', {
+    // Fetch data from server (Bot response)
+    const response = await fetch('http://localhost:5000', {
+        // ('https://codex-im0y.onrender.com/',
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -97,7 +99,7 @@ const handleSubmit = async (e) => {
     })
 
     clearInterval(loadInterval)
-    messageDiv.innerHTML = " "
+    messageDiv.innerHTML = '';
 
     if (response.ok) {
         const data = await response.json();
@@ -107,8 +109,8 @@ const handleSubmit = async (e) => {
     } else {
         const err = await response.text()
 
-        messageDiv.innerHTML = "Something went wrong"
-        alert(err)
+        messageDiv.innerHTML = "You broke it..."
+        alert(err);
     }
 }
 
