@@ -37,7 +37,7 @@
 
   ## Deployment
 
-  This application is deployed using render https://atalla-ai.onrender.com
+  The backend is deployed using Render https://atalla-ai.onrender.com and the frontend is deployed using Vercel https://atalla-ai.vercel.app/
  
   ## Usage
 
