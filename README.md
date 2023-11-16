@@ -15,7 +15,7 @@
   
   ## Description
    
-   
+   Chatbot that imports two images, one for the user and one for the bot. It then creates a loading animation, types out the bot's response one letter at a time, and generates a unique ID for each response. It also has an event listener that calls the handleSubmit function when the enter key is pressed. This function sends data to a server, clears the textarea input, and displays the bot's response in the chat container.
    
  
   ## Table of Contents
