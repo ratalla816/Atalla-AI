@@ -63,8 +63,8 @@
 
   # Acknowledgements
   
-  * 
-  * 
+  * JavaScript Mastery, "Build and Deploy Your Own ChatGPT AI App in JavaScript" https://www.youtube.com/watch?v=2FeymQoKvrk
+  
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-important)
