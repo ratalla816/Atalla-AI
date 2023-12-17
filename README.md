@@ -37,7 +37,7 @@
 
   ## Deployment
 
-  This application is deployed using 
+  The backend is deployed using Render https://atalla-ai.onrender.com and the frontend is deployed using Vercel https://atalla-ai.vercel.app/
  
   ## Usage
 
@@ -63,8 +63,8 @@
 
   # Acknowledgements
   
-  * 
-  * 
+  * JavaScript Mastery, "Build and Deploy Your Own ChatGPT AI App in JavaScript" https://www.youtube.com/watch?v=2FeymQoKvrk
+  
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-important)
