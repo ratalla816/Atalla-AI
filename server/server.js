@@ -35,7 +35,7 @@ app.post('/', async (req, res) => {
     const response = await openai.completions.create({
         
         // code example from the openai website \\ 
-        model: "gpt-4-turbo-2024-04-09",
+        model: "gpt-4-turbo-preview",
         // model: "gpt-3.5-turbo-instruct",
         // model: "text-davinci-003", // select one of the AI models from the openai website - this one handles text as well as code
       prompt: `${prompt}`,
